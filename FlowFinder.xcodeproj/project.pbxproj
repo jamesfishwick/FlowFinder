@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C67E4EEB2BED1EA300751A7F /* FlowFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E4EEA2BED1EA300751A7F /* FlowFinderApp.swift */; };
+		C67E4EED2BED1EA300751A7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E4EEC2BED1EA300751A7F /* ContentView.swift */; };
+		C67E4EEF2BED1EA500751A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67E4EEE2BED1EA500751A7F /* Assets.xcassets */; };
+		C67E4EF22BED1EA500751A7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C67E4EF12BED1EA500751A7F /* Preview Assets.xcassets */; };
+		C67E4EFC2BED1EA500751A7F /* FlowFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E4EFB2BED1EA500751A7F /* FlowFinderTests.swift */; };
+		C67E4F062BED1EA500751A7F /* FlowFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E4F052BED1EA500751A7F /* FlowFinderUITests.swift */; };
+		C67E4F082BED1EA500751A7F /* FlowFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C67E4F072BED1EA500751A7F /* FlowFinderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C67E4EF82BED1EA500751A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67E4EDF2BED1EA300751A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67E4EE62BED1EA300751A7F;
+			remoteInfo = FlowFinder;
+		};
+		C67E4F022BED1EA500751A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C67E4EDF2BED1EA300751A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C67E4EE62BED1EA300751A7F;
+			remoteInfo = FlowFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C67E4EE72BED1EA300751A7F /* FlowFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67E4EEA2BED1EA300751A7F /* FlowFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFinderApp.swift; sourceTree = "<group>"; };
+		C67E4EEC2BED1EA300751A7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C67E4EEE2BED1EA500751A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C67E4EF12BED1EA500751A7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C67E4EF72BED1EA500751A7F /* FlowFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67E4EFB2BED1EA500751A7F /* FlowFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFinderTests.swift; sourceTree = "<group>"; };
+		C67E4F012BED1EA500751A7F /* FlowFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C67E4F052BED1EA500751A7F /* FlowFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFinderUITests.swift; sourceTree = "<group>"; };
+		C67E4F072BED1EA500751A7F /* FlowFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C67E4EE42BED1EA300751A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67E4EF42BED1EA500751A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67E4EFE2BED1EA500751A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C67E4EDE2BED1EA300751A7F = {
+			isa = PBXGroup;
+			children = (
+				C67E4EE92BED1EA300751A7F /* FlowFinder */,
+				C67E4EFA2BED1EA500751A7F /* FlowFinderTests */,
+				C67E4F042BED1EA500751A7F /* FlowFinderUITests */,
+				C67E4EE82BED1EA300751A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C67E4EE82BED1EA300751A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C67E4EE72BED1EA300751A7F /* FlowFinder.app */,
+				C67E4EF72BED1EA500751A7F /* FlowFinderTests.xctest */,
+				C67E4F012BED1EA500751A7F /* FlowFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67E4EE92BED1EA300751A7F /* FlowFinder */ = {
+			isa = PBXGroup;
+			children = (
+				C67E4EEA2BED1EA300751A7F /* FlowFinderApp.swift */,
+				C67E4EEC2BED1EA300751A7F /* ContentView.swift */,
+				C67E4EEE2BED1EA500751A7F /* Assets.xcassets */,
+				C67E4EF02BED1EA500751A7F /* Preview Content */,
+			);
+			path = FlowFinder;
+			sourceTree = "<group>";
+		};
+		C67E4EF02BED1EA500751A7F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C67E4EF12BED1EA500751A7F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C67E4EFA2BED1EA500751A7F /* FlowFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C67E4EFB2BED1EA500751A7F /* FlowFinderTests.swift */,
+			);
+			path = FlowFinderTests;
+			sourceTree = "<group>";
+		};
+		C67E4F042BED1EA500751A7F /* FlowFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C67E4F052BED1EA500751A7F /* FlowFinderUITests.swift */,
+				C67E4F072BED1EA500751A7F /* FlowFinderUITestsLaunchTests.swift */,
+			);
+			path = FlowFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C67E4EE62BED1EA300751A7F /* FlowFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67E4F0B2BED1EA500751A7F /* Build configuration list for PBXNativeTarget "FlowFinder" */;
+			buildPhases = (
+				C67E4EE32BED1EA300751A7F /* Sources */,
+				C67E4EE42BED1EA300751A7F /* Frameworks */,
+				C67E4EE52BED1EA300751A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowFinder;
+			productName = FlowFinder;
+			productReference = C67E4EE72BED1EA300751A7F /* FlowFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C67E4EF62BED1EA500751A7F /* FlowFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67E4F0E2BED1EA500751A7F /* Build configuration list for PBXNativeTarget "FlowFinderTests" */;
+			buildPhases = (
+				C67E4EF32BED1EA500751A7F /* Sources */,
+				C67E4EF42BED1EA500751A7F /* Frameworks */,
+				C67E4EF52BED1EA500751A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67E4EF92BED1EA500751A7F /* PBXTargetDependency */,
+			);
+			name = FlowFinderTests;
+			productName = FlowFinderTests;
+			productReference = C67E4EF72BED1EA500751A7F /* FlowFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C67E4F002BED1EA500751A7F /* FlowFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C67E4F112BED1EA500751A7F /* Build configuration list for PBXNativeTarget "FlowFinderUITests" */;
+			buildPhases = (
+				C67E4EFD2BED1EA500751A7F /* Sources */,
+				C67E4EFE2BED1EA500751A7F /* Frameworks */,
+				C67E4EFF2BED1EA500751A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C67E4F032BED1EA500751A7F /* PBXTargetDependency */,
+			);
+			name = FlowFinderUITests;
+			productName = FlowFinderUITests;
+			productReference = C67E4F012BED1EA500751A7F /* FlowFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C67E4EDF2BED1EA300751A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					C67E4EE62BED1EA300751A7F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					C67E4EF62BED1EA500751A7F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C67E4EE62BED1EA300751A7F;
+					};
+					C67E4F002BED1EA500751A7F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = C67E4EE62BED1EA300751A7F;
+					};
+				};
+			};
+			buildConfigurationList = C67E4EE22BED1EA300751A7F /* Build configuration list for PBXProject "FlowFinder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C67E4EDE2BED1EA300751A7F;
+			productRefGroup = C67E4EE82BED1EA300751A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C67E4EE62BED1EA300751A7F /* FlowFinder */,
+				C67E4EF62BED1EA500751A7F /* FlowFinderTests */,
+				C67E4F002BED1EA500751A7F /* FlowFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C67E4EE52BED1EA300751A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67E4EF22BED1EA500751A7F /* Preview Assets.xcassets in Resources */,
+				C67E4EEF2BED1EA500751A7F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67E4EF52BED1EA500751A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67E4EFF2BED1EA500751A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C67E4EE32BED1EA300751A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67E4EED2BED1EA300751A7F /* ContentView.swift in Sources */,
+				C67E4EEB2BED1EA300751A7F /* FlowFinderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67E4EF32BED1EA500751A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67E4EFC2BED1EA500751A7F /* FlowFinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67E4EFD2BED1EA500751A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C67E4F082BED1EA500751A7F /* FlowFinderUITestsLaunchTests.swift in Sources */,
+				C67E4F062BED1EA500751A7F /* FlowFinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C67E4EF92BED1EA500751A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67E4EE62BED1EA300751A7F /* FlowFinder */;
+			targetProxy = C67E4EF82BED1EA500751A7F /* PBXContainerItemProxy */;
+		};
+		C67E4F032BED1EA500751A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C67E4EE62BED1EA300751A7F /* FlowFinder */;
+			targetProxy = C67E4F022BED1EA500751A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C67E4F092BED1EA500751A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C67E4F0A2BED1EA500751A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C67E4F0C2BED1EA500751A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlowFinder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesfishwick.FlowFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C67E4F0D2BED1EA500751A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlowFinder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesfishwick.FlowFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C67E4F0F2BED1EA500751A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesfishwick.FlowFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowFinder";
+			};
+			name = Debug;
+		};
+		C67E4F102BED1EA500751A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesfishwick.FlowFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowFinder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FlowFinder";
+			};
+			name = Release;
+		};
+		C67E4F122BED1EA500751A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesfishwick.FlowFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowFinder;
+			};
+			name = Debug;
+		};
+		C67E4F132BED1EA500751A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jamesfishwick.FlowFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowFinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C67E4EE22BED1EA300751A7F /* Build configuration list for PBXProject "FlowFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67E4F092BED1EA500751A7F /* Debug */,
+				C67E4F0A2BED1EA500751A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67E4F0B2BED1EA500751A7F /* Build configuration list for PBXNativeTarget "FlowFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67E4F0C2BED1EA500751A7F /* Debug */,
+				C67E4F0D2BED1EA500751A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67E4F0E2BED1EA500751A7F /* Build configuration list for PBXNativeTarget "FlowFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67E4F0F2BED1EA500751A7F /* Debug */,
+				C67E4F102BED1EA500751A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C67E4F112BED1EA500751A7F /* Build configuration list for PBXNativeTarget "FlowFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C67E4F122BED1EA500751A7F /* Debug */,
+				C67E4F132BED1EA500751A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C67E4EDF2BED1EA300751A7F /* Project object */;
+}
